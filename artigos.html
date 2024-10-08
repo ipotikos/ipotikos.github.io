@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>MindElevate</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  
+  h3, h4 {
+    margin: 10px 0 30px 0;
+    letter-spacing: 10px;      
+    font-size: 20px;
+    color: #111;
+  }
+  .container {
+    font-family: Montserrat, sans-serif;
+    padding: 80px 120px;
+  }
+ 
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail p {
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  .nav-tabs li a {
+    color: #777;
+  }
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+  }
+  footer a {
+    color: #f5f5f5;
+  }
+  footer a:hover {
+    color: #777;
+    text-decoration: none;
+  }  
+  .form-control {
+    border-radius: 0;
+  }
+  textarea {
+    resize: none;
+  }
+  .article-card {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .article-card img {
+      width: 100%; /* Largura total do contêiner */
+      height: 200px; /* Altura fixa */
+      object-fit: cover; /* Cobre o espaço, cortando a imagem se necessário */
+      border-radius: 8px;
+    }
+
+
+    .article-title {
+        font-family: Montserrat, sans-serif;
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: none;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .article-title:hover {
+      font-family: Montserrat, sans-serif;
+      text-decoration: underline;
+      color: #000;
+    }
+
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage">MindElevate</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">VOLTAR</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <h2 class="text-center">Artigos</h2>
+  <p class="text-center">Explore nossos artigos sobre bem-estar e desenvolvimento pessoal.</p>
+  <br>
+
+  <div class="row">
+    <!-- Artigo 1 -->
+    <div class="col-sm-4">
+      <div class="article-card">
+        <a href="artigo1-winhof.html">
+          <img src="https://www.elhombre.com.br/wp-content/uploads/2021/06/Wim-hof.jpg" alt="Artigo 1">
+          <p class="article-title">O Método Wim Hof: Controle da Mente e do Corpo</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Artigo 2 -->
+    <div class="col-sm-4">
+      <div class="article-card">
+        <a href="artigo2-dopamina.html">
+          <img src="https://segredosdomundo.r7.com/wp-content/uploads/2020/10/jejum-de-dopamina-o-que-e-como-funciona-e-controversias-da-pratica-1.jpg" alt="Artigo 2">
+          <p class="article-title">Jejum de Dopamina: Como Pode Beneficiar a Saúde Mental</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Artigo 3 -->
+    <div class="col-sm-4">
+      <div class="article-card">
+        <a href="artigo3-bullet.html">
+          <img src="https://www.olharconceito.com.br/imgsite/noticias/BULLET.jpg" alt="Artigo 3">
+          <p class="article-title">Bullet Journal: Uma Ferramenta de Organização</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mais linhas de artigos -->
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="article-card">
+        <a href="artigo4-banhogelado.html">
+          <img src="https://www.opiniaocaete.com.br/wp-content/uploads/2023/06/Chuveiro.jpg" alt="Artigo 4">
+          <p class="article-title">Os Benefícios dos Banhos Gelados</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Continue a adicionar mais artigos -->
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="text-center">
+  <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+  <p>Bootstrap Theme Made By-fazer um site pessoal e colocar aq do lado <a href="https://www.w3schools.com" data-toggle="tooltip" title="Visit w3schools">www.w3schools.com</a></p>
+</footer>
+
+
+<script>
+$(document).ready(function(){
+  // Initialize Tooltip
+  $('[data-toggle="tooltip"]').tooltip();
+ 
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+
+      // Store hash
+      var hash = this.hash;
+
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+})
+</script>
+
+
+</body>
+</html>
